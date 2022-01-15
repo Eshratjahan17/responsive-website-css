@@ -161,13 +161,22 @@ footer {
     background-color: rgba(230, 230, 230, 0.274);
     border-radius: 20px;
   }
+  .navigations {
+    display: none;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .blog {
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    background-color: white;
+    box-shadow: none;
+    margin: 10px 10px;
+    background-color: rgba(230, 230, 230, 0.274);
+    border-radius: 20px;
+
     /* justify-content: center; */
     /* justify-items:center ; */
+  }
+  .navigations {
+    display: none;
   }
 }
