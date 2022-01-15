@@ -24,7 +24,7 @@ nav a {
 .about-section {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  margin: 1em 8em;
+  margin: 2em 8em;
   /* align-items: center;
   justify-content: space-between; */
 }
@@ -47,6 +47,8 @@ button {
   display: flex;
   align-items: center;
 }
+.booking {
+}
 
 /*About-section end */
 
@@ -61,12 +63,14 @@ button {
   grid-row-gap: 30px;
   grid-column-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0;
 }
 .blog-header {
   font-size: 28px;
   color: #3a3a3a;
   margin: 10px;
   text-align: center;
+  padding: 10px;
 }
 .blog-img {
   width: 300px;
@@ -74,6 +78,7 @@ button {
 }
 .blogs {
   box-shadow: 5px 10px 10px #c2c1c1;
+  border-radius: 10px;
 
   padding: 15px;
   background-color: white;
