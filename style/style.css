@@ -29,7 +29,7 @@ nav a {
   justify-content: space-between; */
 }
 .about-us {
-  width: 30%;
+  width: 70%;
 }
 .about-us a {
   text-decoration: none;
@@ -136,13 +136,14 @@ footer {
 /*Fotter  end */
 /*media query start */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* .container {
-    width: 100%;
-  } */
   main {
     margin-right: 5px 5px;
 
     padding: 0;
+  }
+  .about-section {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
   .blog-section {
     width: 100%;
