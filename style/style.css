@@ -76,6 +76,10 @@ button {
   width: 300px;
   height: 300px;
 }
+.camera:hover .camera-img {
+  transform: scale(1.5);
+  transition: transform 3s ease-in-out;
+}
 .blogs {
   box-shadow: 5px 10px 10px #c2c1c1;
   border-radius: 10px;
