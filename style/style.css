@@ -126,6 +126,7 @@ span {
   /* width: 300px; */
   margin-left: 150px;
   justify-content: center;
+  padding: 10px;
 }
 .subscriber-icon {
   font-size: 3em;
@@ -185,21 +186,24 @@ footer {
     margin: 0 0;
   }
   .subscribers {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 15px;
     padding-top: 5px;
     padding-bottom: 10px;
   }
   .subscriber-icon {
     font-size: 1em;
+    margin-bottom: 0;
   }
   .subscriber-head {
     font-size: 1em;
+    margin-bottom: 0;
   }
   .subscriber-text {
     font-size: 10px;
   }
   .blog-section {
+    margin: 1em 8em;
     width: 100%;
     background-color: white;
   }
